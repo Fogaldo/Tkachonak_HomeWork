@@ -1,0 +1,14 @@
+#icon{
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(270deg);
+
+}
+
+.yandex_links{
+    color: #f70;
+}
+
+.google_links{
+    color: #666;
+}
