@@ -1,0 +1,60 @@
+h1 {
+    text-align: right;
+    color: orange;
+    margin-top: 0;
+}
+
+p span{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+em{
+    background-color: green;
+    color: white;
+}
+
+p + h2 {
+    color: orange;
+}
+h2 ~ h2 {
+    color: blue;
+}
+
+li > span{
+    font-weight: bold;
+}
+
+table{
+    width: 400px;
+}
+
+tr{
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+.person_stats{
+    background-color: green;
+    color: white;
+}
+
+.person_stats > .name{
+    background-color: white;
+    text-align: left;
+    color: orange;
+}
+
+.fruits_garden{
+    color: grey;
+}
+
+.fruits_storage{
+    color: green;
+}
+
+.vagetables{
+    color: red;
+}

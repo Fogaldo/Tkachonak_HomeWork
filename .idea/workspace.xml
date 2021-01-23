@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345652d0-ec5d-4ad5-a3e5-48251e61c262" name="Default Changelist" comment="" />
+    <list default="true" id="345652d0-ec5d-4ad5-a3e5-48251e61c262" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7/task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7/task1.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +30,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Coursework-on-power-supply" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -40,6 +52,9 @@
       <workItem from="1610030161694" duration="5000" />
       <workItem from="1610287448303" duration="564000" />
       <workItem from="1610298011090" duration="8000" />
+      <workItem from="1610447008183" duration="12000" />
+      <workItem from="1610447021911" duration="465000" />
+      <workItem from="1610551821461" duration="721000" />
     </task>
     <servers />
   </component>
@@ -57,7 +72,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/lesson-5-html" />
+                        <option value="origin/lesson-7-html-css" />
                       </list>
                     </value>
                   </entry>
