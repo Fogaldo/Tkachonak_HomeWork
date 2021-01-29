@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pickpage {
+    margin: 5px 0 5px 0;
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    color: blueviolet;
+}
+
+li a:hover {
+    background-color: blueviolet;
+    color: #FAFAFA;
+}
+
+li a:active {
+    background-color: blueviolet;
+    color: #FAFAFA;
+}
+
+li > span {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+}
+
+.controlfirst, .controllast{
+    border: none;
+}
+
+.controlfirst:hover, .controllast:hover{
+    background-color: #FAFAFA;
+    color: blueviolet;
+}
+
+
+
+
