@@ -38,10 +38,6 @@ li a:hover {
   color: #FAFAFA;
 }
 
-li a:active {
-  background-color: blueviolet;
-  color: #FAFAFA;
-}
 
 li > span {
   margin-left: 5px;
@@ -63,6 +59,12 @@ li > span {
   content: "\00BB";
   padding-left: 3px;
 }
+
+#active{
+  background-color: blueviolet;
+  color: #FAFAFA;
+}
+
 
 
 
