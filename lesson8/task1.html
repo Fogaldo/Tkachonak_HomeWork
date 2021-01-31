@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Task 1</title>
+  <style>
+      .name_form {
+          margin-bottom: 0;
+      }
+
+      .text {
+          width: 220px;
+          height: 100px;
+          max-width: 220px;
+          max-height: 100px;
+      }
+
+      fieldset {
+          margin-bottom: 20px;
+      }
+
+      .btn {
+          padding-left: 0;
+          list-style-type: none;
+      }
+  </style>
+</head>
+<body>
+  <h1>Sign up to the app</h1>
+  <form action="Personal">
+    <fieldset>
+      <legend>Personal information:</legend>
+      <p class="name_form">First name:</p>
+      <input type="text" name="First name" value="Mickey">
+      <p class="name_form">Last name:</p>
+      <input type="text" name="Last name" value="Mouse">
+      <p><textarea class="text" cols="20" rows="2">The cat was playing in the garden.</textarea></p>
+    </fieldset>
+    <fieldset>
+      <legend>Car info (The brand):</legend>
+      <select>
+        <option name="Car info" selected value="Volovo">Volvo</option>
+        <option name="Car info" value="Saab">Saab</option>
+        <option name="Car info" value="Fiat">Fiat</option>
+        <option name="Car info" value="Audi">Audi</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Choose one:</legend>
+      <ul class="btn">
+        <li><input type="radio" id="gender1" name="gender">
+          <label for="gender1">Male</label></li>
+        <li><input type="radio" id="gender2" name="gender">
+          <label for="gender2">Female</label></li>
+        <li><input type="radio" id="gender3" name="gender">
+          <label for="gender3">Other</label></li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Choose many:</legend>
+      <ul class="btn">
+        <li><input type="checkbox" name="transport" id="transport1">
+          <label for="transport1">I have a bike</label></li>
+        <li><input type="checkbox" name="transport" id="transport2">
+          <label for="transport2">I have a car</label></li>
+      </ul>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </form>
+</body>
+</html>

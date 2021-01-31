@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+    background-color: #A64DFF;
+    font-family: Oswald;
+    height: 35px;
+    margin-top: 15px;
+    box-shadow: 0 0 1px black
+}
+
+nav > ul > li{
+    float: left;
+}
+
+nav > ul > li:first-of-type{
+    margin-left: 50px;
+}
+
+nav > ul > li:last-of-type{
+    float: right;
+    margin-right: 20px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    line-height: 34px;
+    padding: 0 15px;
+}
+
+nav > ul > li > a:hover{
+    background-color: #EEEE;
+    color: #A0A0A0;
+    box-shadow: 0 0 1px black;
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
