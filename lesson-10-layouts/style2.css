@@ -1,138 +1,130 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .price-list {
-    position: relative;
-    width: auto;
-    height: 500px;
-    margin: 10px 5px;
+  position: relative;
+  width: auto;
+  height: 500px;
+  margin: 10px 5px;
 }
 
 .value-card {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    font-family: Arial, sans-serif;
-    border: 3px solid #EE8128;
-    border-radius: 5px;
-    width: 288px;
-    height: 460px;
-    box-shadow: 0 0 11px -4px black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  border: 3px solid #EE8128;
+  border-radius: 5px;
+  width: 288px;
+  height: 460px;
+  box-shadow: 0 0 11px -4px black;
 }
 
 .card-header {
-    text-transform: uppercase;
-    background-color: #EE8128;
-    color: white;
-    height: 73px;
+  text-transform: uppercase;
+  background-color: #EE8128;
+  color: white;
+  height: 73px;
 }
 
-.value {
-    font-size: 22px;
-    font-weight: bold;
-    position: relative;
-    top: 24px;
-    left: 82px;
+.tagline {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  top: 24px;
+  left: 82px;
 }
 
-.iconic {
-    position: relative;
-    font-size: 21px;
-    text-transform: uppercase;
-    top: 19px;
-    left: 57px;
+.description {
+  position: relative;
+  font-size: 21px;
+  text-transform: uppercase;
+  top: 19px;
+  left: 57px;
 }
 
 .value-price {
-    top: 15px;
-}
-
-.price {
-    font-size: 72px;
-    margin-top: 17px;
-    margin-left: 68px;
-    font-weight: bold;
-    display: inline-block;
+  top: 15px;
 }
 
 .value-price sup {
-    font-size: 21px;
-    top: 7px;
-    left: 67px;
-    position: relative;
+  font-size: 21px;
+  top: 7px;
+  left: 67px;
+  position: relative;
 }
 
 .value-price sub {
-    font-size: 18px;
-    position: relative;
-    left: 73px;
-    top: 43px;
+  font-size: 18px;
+  position: relative;
+  left: 73px;
+  top: 43px;
 }
 
 .value-price span:first-of-type {
-    font-weight: bold;
-    position: relative;
-    left: 73px;
-    top: 35px;
-    font-size: 66px;
+  font-weight: bold;
+  position: relative;
+  left: 73px;
+  top: 35px;
+  font-size: 66px;
 }
 
-.list {
-    position: relative;
-    top: 60px;
-    left: 15px;
-    font-size: 17px;
+.description-list {
+  position: relative;
+  top: 60px;
+  left: 15px;
+  font-size: 17px;
 }
 
-.list li{
-    color: #888C94;
-    padding-left: 10px;
-    padding-top: 9px;
-    padding-bottom: 4px;
-    width: 248px;
-    list-style-type: none;
-    margin: 1px;
-    border-radius: 3px;
+.description-list li {
+  color: #888C94;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-bottom: 4px;
+  width: 248px;
+  list-style-type: none;
+  margin: 1px;
+  border-radius: 3px;
 }
 
-.list li:before {
-    content: url(arrow.png);
-    padding-right: 12px;
-    padding-left: 22px;
+.description-list li:before {
+  content: url(arrow.png);
+  padding-right: 12px;
+  padding-left: 22px;
 }
 
-.list li:nth-child(odd){
-    background-color: #EEF5FE;
+.description-list li:nth-child(odd) {
+  background-color: #EEF5FE;
 }
 
-.list li:nth-child(even){
-    background-color: #F6F5F6;
+.description-list li:nth-child(even) {
+  background-color: #F6F5F6;
 }
 
 
-.enroll{
-    text-transform: uppercase;
-    color: white;
-    background-color: #EE8128;
-    text-decoration: none;
-    box-shadow: 0px 3px #b35609;
-    border-radius: 5px;
-    position: relative;
-    font-size: 14px;
-    font-weight: bold;
-    top: 89px;
-    left: 19px;
-    padding: 10px 71px 10px 71px;
+.button-order {
+  text-transform: uppercase;
+  color: white;
+  background-color: #EE8128;
+  text-decoration: none;
+  box-shadow: 0px 3px #b35609;
+  border-radius: 5px;
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  top: 89px;
+  left: 19px;
+  padding: 10px 71px 10px 71px;
 }
 
-.enroll:hover{
-    background-color: white;
-    border: 2px solid #EE8128;
-    color: #EE8128;
-    box-shadow: none;
+.button-order:hover {
+  background-color: white;
+  border: 2px solid #EE8128;
+  color: #EE8128;
+  box-shadow: none;
 }
