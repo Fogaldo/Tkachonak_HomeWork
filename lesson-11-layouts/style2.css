@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.client-opinion {
+    font-family: Arial;
+    background-color: black;
+    height: 315px;
+
+}
+
+.client-opinion > h1 {
+    text-transform: uppercase;
+    color: #3170A8;
+    font-weight: lighter;
+    font-size: 37px;
+    width: 360px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -180px;
+}
+
+.client-opinion > h1 > span {
+    color: #EE8129;
+}
+
+.user-content {
+    position: absolute;
+    top: 138px;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.user-content .user-image img {
+    width: 100px;
+    display: inline-block;
+}
+
+.user {
+    position: relative;
+    width: 390px;
+    display: inline-block;
+    margin-right: 144px;
+}
+
+.user-comment {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    width: 341px;
+    left: 124px;
+    top: 0px;
+    height: 76px;
+}
+
+.user-comment .user-type, .user-name {
+    font-size: 13px;
+    font-style: italic;
+    color: #3170A8;
+    display: inline-block;
+}
+
+.comment {
+    font-size: 14px;
+    color: #666666;
+}
+
+.user-type {
+    position: relative;
+    top: 3px;
+    float: right;
+}
+
+.hr-dotted {
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px dotted #666666;
+    margin: 10px 0;
+}
+
+.user-comment:before {
+    position: absolute;
+    left: -31px;
+    top: 30px;
+    content: '';
+    width: 1px;
+    border: 15px solid;
+    border-color: transparent white transparent transparent;
+}
