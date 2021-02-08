@@ -1,1 +1,92 @@
-/* Write your code here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/plans-background.jpg") left 54% bottom 98% no-repeat border-box;
+    width: 100%;
+}
+
+#pakcages {
+    margin-top: 85px;
+}
+
+#plan a:first-of-type {
+    text-decoration: none;
+}
+
+.plan-plus {
+    padding: 50px;
+    width: 85%;
+    background-color: rgba(169, 169, 167, 0.8);
+    margin-bottom: 25px;
+    position: relative;
+    left: 0;
+    border: 3px solid #8C7371;
+}
+
+.plan-free {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 50px;
+    width: 85%;
+    background-color: rgba(169, 169, 167, 0.8);
+    position: relative;
+    right: -15%;
+    border: 3px solid #8C7371;
+}
+
+.plan-premium {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 50px;
+    width: 85%;
+    background-color: rgba(147, 114, 109, 0.9);
+    border: 2px solid #8C7371;
+    position: relative;
+    left: 0;
+}
+
+.tag {
+    background-color: white;
+    color: grey;
+    border: 3px solid salmon;
+    padding: 10px;
+}
+
+.action-block {
+    background-color: #D53F2F;
+    float: right;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: -20px;
+}
+
+.plan-plus h3 {
+    color: black;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.plan-premium h3 {
+    color: white;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.plan-plus h2:first-of-type {
+    color: black;
+}
+
+.plan-premium h2:first-of-type {
+    color: white;
+}
+
+.plan-free h2, h3 {
+    text-align: right;
+    color: black;
+    margin-bottom: 15px;
+}
