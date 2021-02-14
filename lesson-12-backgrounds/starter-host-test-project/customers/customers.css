@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.customer {
+    margin-top: 100px;
+}
+
+#customer-img-1 {
+    width: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+#customer-img-2 {
+    width: 50%;
+    box-shadow: 0 0 10px black;
+    float: right;
+}
+
+#customer-1 .customer-description {
+    float: right;
+    margin-top: 15%;
+    margin-right: 15%;
+    text-align: right;
+    width: 340px;
+}
+
+#customer-2 .customer-description {
+    float: left;
+    margin-top: 15%;
+    margin-left: 15%;
+    text-align: left;
+    width: 340px;
+}
+
+.customer-name {
+    color: #C94630;
+    margin-bottom: 3px;
+    font-size: 35px;
+}
+
+.customer-role {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.customer-info {
+    margin-top: 35px;
+}
+
+.clear {
+    clear: both;
+}
