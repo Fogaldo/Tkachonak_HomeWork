@@ -6,7 +6,20 @@
   </head>
   <body>
     <script>
-    
+      var firstName = prompt('Введите ваше имя');
+      var patronymicName = prompt('Введите ваше отчество');
+      var lastName = prompt('Введите вашу фамилию');
+      var age = prompt('Введите ваш возраст');
+      var male = confirm('Ваш пол мужской?');
+      var ageCalc = Number(5) + Number(age);
+      if (male == true) {
+        male = ' мужской';
+      } else {
+        male = ' женский';
+      }
+      var fullName = firstName + ' ' + patronymicName + ' ' + lastName;
+      var pension = (age > 60) ? 'да.' : 'нет.';
+      alert('ваше ФИО: ' + fullName + '\n' + 'ваш возраст: ' + age + '\n' + 'ваш возраст в днях: ' + (age * 365) + '\n' + 'ваш возраст через 5 лет: ' + ageCalc + '\n' + 'ваш пол: ' + male + '\n' + 'вы на пенсии: ' + pension);
     </script>
   </body>
 </html>
