@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script>
+      'use strict';
+      
+      var x = prompt('Число: ');
+      var n = prompt('Степень: ');
+      var result = pow(x, n);
+      
+      function pow(x, n) {
+        
+        var number = x;
+        
+        for (var i = 1; i < n; i++) {
+          number *= x;
+        }
+        
+        return number;
+      }
+      
+      alert('Результат: ' + result);
+    </script>
+  </body>
+</html>
