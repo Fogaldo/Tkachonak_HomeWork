@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --card-bg: #fff;
+  --card-bg-header: #3949ab;
+  --button-bg-hover: #00897b;
+  --button-text-color-hover: #fff;
+  --button-text-color: #000;
+  --text-color-header: #fff;
+  --button-border: #000000;
+  --list-text-color: #5b5b5b;
+  --border: #ffffff;
+  --shadow: #1c1c1c
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f0f1f1;
+}
+
+.plan__card {
+  width: 20rem;
+  margin: 10vh auto;
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+  text-align: center;
+}
+
+.plan__card-header {
+  position: relative;
+  border-radius: 0.15rem;
+  background: var(--card-bg-header);
+  color: var(--text-color-header);
+}
+
+.plan__card-header-title {
+  padding: 2rem 0 0 0;
+}
+
+.plan__card-header-value {
+  padding: 1rem 0 3.5rem 0;
+  font-size: 3rem;
+}
+
+.plan__card-header-value sup {
+  position: relative;
+  top: -5px;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.plan__card-header-value sub {
+  position: relative;
+  bottom: 10px;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.plan__card-header::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 50px solid transparent;
+  border-right: 20rem solid var(--card-bg);
+  border-bottom: 0px solid var(--card-bg);
+}
+
+.plan__card__features {
+  margin: 1rem auto;
+  width: 40%;
+  color: var(--list-text-color);
+}
+
+.plan__card__features li {
+  margin-bottom: 1rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--border);
+  list-style: none;
+}
+
+.plan__card__cta-btn {
+  display: block;
+  width: 55%;
+  margin: 2rem auto;
+  padding: 1rem 0rem;
+  border: 2px solid var(--button-border);
+  border-radius: 0.3rem;
+  background: var(--button-bg);
+  color: var(--button-text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.plan__card:hover {
+  box-shadow: 0 0px 28px -20px var(--shadow);
+  transition: 0.2s;
+}
+
+.plan__card__cta-btn:hover {
+  background: var(--button-bg-hover);
+  color: var(--button-text-color-hover);
+  transition: 0.2s;
+}
